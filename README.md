@@ -1,44 +1,28 @@
-Solar Theme for Jekyll
-======================
+# Minimal Text
 
-A stylish theme for [Jekyll](http://jekyllrb.com/) blogs, based on the [Solarized](http://ethanschoonover.com/solarized) color palette.
+Minimal Text is a clean and lightweight Jekyll Theme
 
-![Screenshot](http://i.imgur.com/UnnRhkt.png)
+## Documentation
 
+__Baseurl__
 
-Features
--------
+```yaml
+---
+title: Minimal Text
+baseurl: "/Minimal-Text"
+```
+The site baseurl is prepended to asset links and the home button in the `post.html` layout. Please note it must start with a "/"
+By changing this you are changing the location of your website. gh.clarkhacks.com`/Minimal-Text` is the location of Minimal-Text in my case.
 
-* **Two color schemes** — One for Solarized Dark and one for Solarized Light. Just swap the reference to the `colors-dark.css` file with `colors-light.css` if you don't like light-on-dark.
-* **Linkblog support** — Solar will turn your post title into an external link if you add `external-url: http://example.org` to a post's YAML front matter.
-* **Responsive Design** — Solarized adapts to fit any screen size.
+__Pagination__
 
+```yaml
+paginate: 5
+paginate_path: "/:num/"
+```
+`paginate` in `_config.yml` is the number of post blocks that will appear on a single page.
+`paginate_path` is at what location your blog pages will be displayed.
 
-Installation
---------------
+__The documentation has been implemented because of user questions.__ For more documentation to be please request what you need defined.
 
-There are two ways to use Solar. You can either clone-and-go, copying the repository and tweaking the contents to taste, or you can cherry-pick the files you want and integrate them into an existing Jekyll instance. 
-
-If you're starting a new blog, you want to clone-and-go. Just `git clone https://github.com/redwallhp/solar-theme-jekyll.git`, make any changes you want to the template, pages or `_config.yml` and start blogging with Jekyll. Easy.
-
-If you're wanting to replace the theme of an existing Jekyll blog, either option should work. If you want to replace files individually, the files and directories you want to make sure to copy are:
-
-1. `_layouts`
-2. `archives`
-3. `assets`
-4. `feed.xml`
-5. `index.xml`
-
-You'll also want to compare Solar's `_config.yml` with your own, making any appropriate changes.
-
-
-Demo
--------
-
-You can see a demo of Solar [right here on GitHub Pages.](http://mattvh.github.io/solar-theme-jekyll/)
-
-
-License
----------
-
-GPLv2 or higher
+![screenshot](screenshot.jpg)
