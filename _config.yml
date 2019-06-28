@@ -1,9 +1,9 @@
 ---
-title: Minimal Text
-baseurl: "/Minimal-Text"
-desc: A minimal blog for off-topic blog entries.
-about: I am a web developer, software engineer, and project manager currently living in Collinsville, Illinois. I'm a little weird but pretty friendly.
-image: images/shakespeare.png
+title: Sujon from Dhaka
+baseurl: ""
+desc: Works | Learnings | Thoughts.
+about: I am a problem solver, software engineer currently working at Escenic AS (Subsidiary of CCI Europe A/S) and living in Dhaka.
+image: images/sujon.jpg
 excerpt_separator: "<!-- more -->"
 markdown: kramdown
 plugins:
