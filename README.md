@@ -24,5 +24,3 @@ paginate_path: "/:num/"
 `paginate_path` is at what location your blog pages will be displayed.
 
 __The documentation has been implemented because of user questions.__ For more documentation to be please request what you need defined.
-
-![screenshot](screenshot.jpg)
